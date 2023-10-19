@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Small project to study GraphQL with React",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only index.ts"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Daniel Sanches",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.9.4",
+    "class-validator": "^0.14.0",
+    "graphql": "^16.8.1",
+    "graphql-scalars": "^1.22.4",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^2.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
