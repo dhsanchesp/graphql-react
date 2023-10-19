@@ -1,5 +1,8 @@
 # Dependency directories
-node_modules/
+node_modules
+dist
+dist-ssr
+*.local
 
 ### Node ###
 # Logs
@@ -13,3 +16,14 @@ lerna-debug.log*
 
 # TypeScript cache
 *.tsbuildinfo
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
